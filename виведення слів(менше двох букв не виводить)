@@ -1,0 +1,5 @@
+text=str(input("введіть текст"))
+print(text)
+n=sorted(text.split())
+if len(n)>2:
+    print(n)
